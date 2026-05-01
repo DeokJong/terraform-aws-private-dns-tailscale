@@ -43,8 +43,6 @@ See [examples/complete](./examples/complete) for a complete example.
 |------|-------------|------|---------|:--------:|
 | domain_name | Private DNS domain name to create in Route 53 and configure in Tailscale split DNS. | `string` | n/a | yes |
 | vpc_id | VPC ID to associate with the Route 53 private hosted zone. | `string` | n/a | yes |
-| comment | Comment for the Route 53 private hosted zone. | `string` | `null` | no |
-| tags | Tags to apply to the Route 53 private hosted zone. | `map(string)` | `{}` | no |
 
 ## Outputs
 
